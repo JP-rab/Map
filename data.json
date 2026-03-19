@@ -1,0 +1,20 @@
+[
+  {"region": "National Capital Region (NCR)", "provinces": 0, "cities": 16, "municipalities": 1, "barangays": 1715, "population": 13484462},
+  {"region": "Cordillera Administrative Region (CAR)", "provinces": 6, "cities": 2, "municipalities": 75, "barangays": 1178, "population": 1797660},
+  {"region": "Region I (Ilocos Region)", "provinces": 4, "cities": 9, "municipalities": 116, "barangays": 3267, "population": 5487438},
+  {"region": "Region II (Cagayan Valley)", "provinces": 5, "cities": 4, "municipalities": 89, "barangays": 2311, "population": 1883866},
+  {"region": "Region III (Central Luzon)", "provinces": 7, "cities": 15, "municipalities": 115, "barangays": 3105, "population": 12422297},
+  {"region": "Region IV-A (CALABARZON)", "provinces": 5, "cities": 22, "municipalities": 120, "barangays": 3993, "population": 16048978},
+  {"region": "MIMAROPA Region", "provinces": 5, "cities": 2, "municipalities": 71, "barangays": 1460, "population": 3218498},
+  {"region": "Region V (Bicol Region)", "provinces": 6, "cities": 7, "municipalities": 107, "barangays": 3471, "population": 6082165},
+  {"region": "Region VI (Western Visayas)", "provinces": 5, "cities": 3, "municipalities": 98, "barangays": 3389, "population": 7954325},
+  {"region": "Negros Island Region (NIR)", "provinces": 3, "cities": 19, "municipalities": 44, "barangays": 1353, "population": 4631054},
+  {"region": "Region VII (Central Visayas)", "provinces": 2, "cities": 10, "municipalities": 91, "barangays": 2312, "population": 7513365},
+  {"region": "Region VIII (Eastern Visayas)", "provinces": 6, "cities": 7, "municipalities": 136, "barangays": 4365, "population": 4547150},
+  {"region": "Region IX (Zamboanga Peninsula)", "provinces": 4, "cities": 5, "municipalities": 86, "barangays": 2314, "population": 3933809},
+  {"region": "Region X (Northern Mindanao)", "provinces": 5, "cities": 9, "municipalities": 84, "barangays": 2022, "population": 5022265},
+  {"region": "Region XI (Davao Region)", "provinces": 5, "cities": 6, "municipalities": 43, "barangays": 1162, "population": 11374823},
+  {"region": "Region XII (SOCCSKSARGEN)", "provinces": 4, "cities": 4, "municipalities": 45, "barangays": 1097, "population": 5011523},
+  {"region": "Region XIII (Caraga)", "provinces": 5, "cities": 6, "municipalities": 67, "barangays": 1312, "population": 2900880},
+  {"region": "Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)", "provinces": 5, "cities": 3, "municipalities": 105, "barangays": 2185, "population": 4844288}
+]
