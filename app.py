@@ -19,7 +19,7 @@ def get_population_data(region_data):
     """Get population data for a region"""
     return region_data.get('population', 0)
 
-# Philippine regional coordinates (center points)
+
 region_coordinates = {
     "National Capital Region (NCR)": {"lat": 14.5995, "lon": 120.9842},
     "Cordillera Administrative Region (CAR)": {"lat": 16.4122, "lon": 120.5932},
@@ -43,11 +43,11 @@ region_coordinates = {
 
 def create_population_map():
     """Create and display the Philippine population choropleth map"""
-    # Load data from JSON file
+    
     philippine_data = load_philippine_data()
     
     if philippine_data:
-        # Process data to extract population information
+        
         processed_data = []
         for region in philippine_data:
             region_name = region['region']
@@ -66,10 +66,10 @@ def create_population_map():
                     'lon': coords['lon']
                 })
         
-        # Create DataFrame
+        
         df = pd.DataFrame(processed_data)
         
-        # Create choropleth map showing population
+        
         fig = px.scatter_geo(
             df,
             lat="lat",
@@ -91,11 +91,11 @@ def create_population_map():
             }
         )
         
-        # Update map layout for better Philippine focus
+        
         fig.update_layout(
             geo=dict(
-                projection_scale=10,  # Zoom in on Philippines
-                center=dict(lat=12.8797, lon=121.7740),  # Center on Philippines
+                projection_scale=9,  
+                center=dict(lat=12.8797, lon=121.7740),  
                 showland=True,
                 landcolor="rgb(243, 243, 243)",
                 showocean=True,
@@ -114,6 +114,6 @@ def create_population_map():
         print("Failed to load data. Please ensure data.json exists and contains valid JSON.")
         return None
 
-# Execute the map creation when script is run directly
+
 if __name__ == "__main__":
     create_population_map()
