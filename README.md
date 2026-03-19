@@ -36,7 +36,7 @@ This application uses comprehensive data from philippine standard geographic cod
 - **1,578 municipalities** 
 - **42,046 barangays** total
 
-- **region coordination** from a simple map "https://simplemaps.com/gis/country/ph#admin1" 
+- **region coordinates** from a simple map "https://simplemaps.com/gis/country/ph#admin1" 
 
 
 ## Dependencies
