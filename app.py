@@ -20,7 +20,7 @@ def get_population_data(region_data):
     return region_data.get('population', 0)
 
 
-region_coordinates = {
+region_coordinates = { #coordinate
     "National Capital Region (NCR)": {"lat": 14.5995, "lon": 120.9842},
     "Cordillera Administrative Region (CAR)": {"lat": 16.4122, "lon": 120.5932},
     "Region I (Ilocos Region)": {"lat": 16.7989, "lon": 120.5889},
@@ -92,7 +92,7 @@ def create_population_map():
         )
         
         
-        fig.update_layout(
+        fig.update_layout( #layout
             geo=dict(
                 projection_scale=9,  
                 center=dict(lat=12.8797, lon=121.7740),  
